@@ -313,7 +313,7 @@ a { text-decoration: none; transition: color 0.3s ease; }
 .about-story-panel p, .about-story-accent p, .credential-copy p, .process-step p { max-width: 62ch; line-height: 1.75; }
 .about-story-panel p + p { margin-top: 18px; }
 
-.about-story-accent { background: linear-gradient(135deg, rgba(238, 28, 37, 0.94), rgba(17, 35, 107, 0.96)); color: var(--color-white); padding: 56px 40px; display: flex; flex-direction: column; justify-content: center; }
+.about-story-accent { background: url('index_files/herofloor.jpg') center / cover;
 .about-story-accent h3 { color: var(--color-white); font-size: 1.8rem; margin-bottom: 18px; }
 .about-story-accent p { color: rgba(255,255,255,0.9); }
 
