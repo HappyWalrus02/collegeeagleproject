@@ -285,6 +285,38 @@ a { text-decoration: none; transition: color 0.3s ease; }
 .commercial-spotlight-card { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr); overflow: hidden; }
 .commercial-placeholder img { width: 100%; height: 100%; min-height: 320px; object-fit: cover; display: block; }
 .commercial-copy { padding: 40px; display: flex; flex-direction: column; justify-content: center; }
+/* Update these specific classes in your styles.css file */
+
+.before-after-slider { 
+    position: relative; 
+    height: 320px; 
+    overflow: hidden; 
+    background-color: #dbe0ea; 
+    container-type: inline-size; /* NEW: Sets this as a size reference for the images inside */
+}
+
+.slider-image { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    display: block; 
+}
+
+.slider-after { 
+    position: absolute; 
+    inset: 0 auto 0 0; 
+    overflow: hidden; 
+    height: 100%; 
+}
+
+/* NEW: Forces the top image to always be exactly 100% of the parent slider width */
+.slider-after .slider-image { 
+    width: 100cqw; 
+    max-width: none; 
+    min-width: 0; 
+}
+
+/* Leave your slider-divider, slider-label, and slider-control styles exactly as they were! */
 
 /* ==========================================================================
    8. About Page
@@ -313,7 +345,7 @@ a { text-decoration: none; transition: color 0.3s ease; }
 .about-story-panel p, .about-story-accent p, .credential-copy p, .process-step p { max-width: 62ch; line-height: 1.75; }
 .about-story-panel p + p { margin-top: 18px; }
 
-.about-story-accent { background: url('index_files/herofloor.jpg') center / cover;
+.about-story-accent { background: url(index_files/gallery_sample.jpg) center / cover;}
 .about-story-accent h3 { color: var(--color-white); font-size: 1.8rem; margin-bottom: 18px; }
 .about-story-accent p { color: rgba(255,255,255,0.9); }
 
