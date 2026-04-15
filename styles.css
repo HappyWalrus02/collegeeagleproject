@@ -345,7 +345,7 @@ a { text-decoration: none; transition: color 0.3s ease; }
 .about-story-panel p, .about-story-accent p, .credential-copy p, .process-step p { max-width: 62ch; line-height: 1.75; }
 .about-story-panel p + p { margin-top: 18px; }
 
-.about-story-accent { background: url(index_files/gallery_sample.jpg) center / cover;}
+.about-story-accent { background: linear-gradient(rgb(255 0 0 / 5%), rgb(35 79 255 / 20%)), url(./index_files/about-side.jpg) center / cover;}
 .about-story-accent h3 { color: var(--color-white); font-size: 1.8rem; margin-bottom: 18px; }
 .about-story-accent p { color: rgba(255,255,255,0.9); }
 
