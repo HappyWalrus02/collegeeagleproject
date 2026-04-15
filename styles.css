@@ -346,8 +346,7 @@ a { text-decoration: none; transition: color 0.3s ease; }
 .about-story-panel p + p { margin-top: 18px; }
 
 .about-story-accent { background: linear-gradient(rgb(255 0 0 / 5%), rgb(35 79 255 / 20%)), url(./index_files/about-side.jpg) center / cover;}
-.about-story-accent h3 { color: var(--color-white); font-size: 1.8rem; margin-bottom: 18px; }
-.about-story-accent p { color: rgba(255,255,255,0.9); }
+.about-story-accent1 { background: linear-gradient(rgb(255 0 0 / 5%), rgb(35 79 255 / 20%)), url(./index_files/about-side1.jpg) center / cover;}
 
 .about-credentials-band { background-color: var(--color-blue); color: var(--color-white); }
 .about-band-header { max-width: 1200px; margin: 0 auto 34px; }
